@@ -1,9 +1,0 @@
-$ go build -gcflags="-m" escape.go
-# command-line-arguments
-./escape.go:13:6: can inline createSlice
-./escape.go:5:6: can inline main
-./escape.go:6:22: inlining call to createSlice
-./escape.go:6:22: make([]int, 0) does not escape
-./escape.go:6:22: append does not escape
-./escape.go:14:15: make([]int, 0) escapes to heap
-./escape.go:18:17: append escapes to heap

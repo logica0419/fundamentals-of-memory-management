@@ -1,10 +1,8 @@
-//go:build ignore
-
 package main
 
-func main() {
-	slice := make([]int, 0)
+func noEscapeNoAlloc() {
 	num := 5
+	slice := make([]int, 0, num)
 
 	for i := range num {
 		slice = append(slice, i)
@@ -14,4 +12,3 @@ func main() {
 		println(v)
 	}
 }
-

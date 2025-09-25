@@ -1,8 +1,6 @@
-//go:build ignore
-
 package main
 
-func main() {
+func escape() {
 	slice := createSlice()
 
 	for _, v := range slice {
@@ -11,8 +9,8 @@ func main() {
 }
 
 func createSlice() []int {
-	slice := make([]int, 0)
 	num := 5
+	slice := make([]int, 0, 5)
 
 	for i := range num {
 		slice = append(slice, i)
