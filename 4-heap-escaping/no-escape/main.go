@@ -5,10 +5,6 @@ type Data struct {
 }
 
 func main() {
-	data := NewData()
+	data := &Data{value: 42}
 	_ = data.value
-}
-
-func NewData() *Data {
-	return &Data{value: 42}
 }

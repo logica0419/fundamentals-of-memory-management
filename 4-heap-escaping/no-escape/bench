@@ -1,0 +1,6 @@
+$ go test -gcflags="-m -l" -bench . -benchmem
+[...]
+./main.go:8:10: &Data{...} does not escape
+[...]
+BenchmarkMain-24        839216290                1.440 ns/op           0 B/op          0 allocs/op
+PASS

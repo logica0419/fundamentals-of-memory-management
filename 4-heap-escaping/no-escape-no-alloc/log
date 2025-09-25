@@ -1,4 +1,0 @@
-$ go build -gcflags="-m -l" -o /tmp/test *.go
-# command-line-arguments
-./no-escape-no-aloc.go:5:15: make([]int, 0, 5) does not escape
-./no-escape-no-aloc.go:8:17: append does not escape

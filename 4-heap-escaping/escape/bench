@@ -1,0 +1,6 @@
+$ go test -gcflags="-m -l" -bench . -benchmem
+[...]
+./main.go:13:9: &Data{...} escapes to heap
+[...]
+BenchmarkMain-24        90711108                12.66 ns/op            8 B/op          1 allocs/op
+PASS
