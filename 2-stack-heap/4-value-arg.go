@@ -8,11 +8,11 @@ import (
 
 func main() {
 	num := 5
-	change(num)
+	f(num)
 
 	fmt.Println(num)
 }
 
-func change(num int) {
+func f(num int) {
 	num = 10
 }
