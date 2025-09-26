@@ -3,5 +3,5 @@ $ go test -gcflags="-m -l" -bench . -benchmem
 ./main.go:5:15: make([]int, 0) does not escape
 ./main.go:8:17: append does not escape
 [...]
-BenchmarkMain-24        27128083                39.40 ns/op           64 B/op          1 allocs/op
+BenchmarkMain-24  27128083  39.40 ns/op  64 B/op  1 allocs/op
 PASS
