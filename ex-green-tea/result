@@ -1,13 +1,14 @@
-No Green Tea----------------------------------------------
-BenchmarkMain-24    99   11512820 ns/op   200030 allocs/op
-BenchmarkMain-24    98   11273403 ns/op   200030 allocs/op
-BenchmarkMain-24    86   11643252 ns/op   200030 allocs/op
-BenchmarkMain-24   105   11588131 ns/op   200029 allocs/op
-BenchmarkMain-24   100   11194577 ns/op   200030 allocs/op
+             実行回数↓       1実行の時間↓     1実行のヒープ割当数↓
+No Green Tea------------------------------------------------------
+BenchmarkMain-24    10    103743625 ns/op        2000042 allocs/op
+BenchmarkMain-24    10    105245730 ns/op        2000041 allocs/op
+BenchmarkMain-24    10    106770142 ns/op        2000041 allocs/op
+BenchmarkMain-24    10    105057529 ns/op        2000042 allocs/op
+BenchmarkMain-24    10    101649209 ns/op        2000041 allocs/op
 
-Green Tea 🍵----------------------------------------------
-BenchmarkMain-24   112   10151524 ns/op   200028 allocs/op
-BenchmarkMain-24   100   10359775 ns/op   200028 allocs/op
-BenchmarkMain-24    98   10532239 ns/op   200028 allocs/op
-BenchmarkMain-24   110   10416048 ns/op   200028 allocs/op
-BenchmarkMain-24   100   10498809 ns/op   200028 allocs/op
+Green Tea 🍵------------------------------------------------------
+BenchmarkMain-24    14     83131889 ns/op        2000039 allocs/op
+BenchmarkMain-24    13     81970112 ns/op        2000039 allocs/op
+BenchmarkMain-24    13     86144289 ns/op        2000038 allocs/op
+BenchmarkMain-24    13     79421197 ns/op        2000039 allocs/op
+BenchmarkMain-24    14     77255746 ns/op        2000038 allocs/op
