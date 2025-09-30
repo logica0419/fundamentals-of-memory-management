@@ -1,0 +1,13 @@
+No Green Tea----------------------------------------------
+BenchmarkMain-24    99   11512820 ns/op   200030 allocs/op
+BenchmarkMain-24    98   11273403 ns/op   200030 allocs/op
+BenchmarkMain-24    86   11643252 ns/op   200030 allocs/op
+BenchmarkMain-24   105   11588131 ns/op   200029 allocs/op
+BenchmarkMain-24   100   11194577 ns/op   200030 allocs/op
+
+Green Tea 🍵----------------------------------------------
+BenchmarkMain-24   112   10151524 ns/op   200028 allocs/op
+BenchmarkMain-24   100   10359775 ns/op   200028 allocs/op
+BenchmarkMain-24    98   10532239 ns/op   200028 allocs/op
+BenchmarkMain-24   110   10416048 ns/op   200028 allocs/op
+BenchmarkMain-24   100   10498809 ns/op   200028 allocs/op
