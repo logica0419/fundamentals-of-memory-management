@@ -1,0 +1,8 @@
+...
+6710864
+6710865
+runtime: goroutine stack exceeds 1000000000-byte limit
+runtime: sp=0xc0201603a8 stack=[0xc020160000, 0xc040160000]
+fatal error: stack overflow
+
+real    0m43.132s
