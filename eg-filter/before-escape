@@ -1,0 +1,5 @@
+$ go build -gcflags="-m -l" filter.go
+# command-line-arguments
+[...]
+./filter.go:6:18: make(targetList, 0, len(list)) escapes to heap
+./filter.go:9:21: append escapes to heap
