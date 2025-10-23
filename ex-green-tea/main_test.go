@@ -5,7 +5,7 @@ import (
 )
 
 func BenchmarkMain(b *testing.B) {
-	for range b.N {
+	for b.Loop() {
 		main()
 	}
 }
