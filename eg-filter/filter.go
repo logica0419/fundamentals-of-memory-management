@@ -1,5 +1,7 @@
 package main
 
+import "iter"
+
 type targetList []int
 
 func (list targetList) FilterBefore(match func(int) bool) targetList {
@@ -22,6 +24,18 @@ func (list targetList) FilterAfter(match func(int) bool) targetList {
 	}
 	list = list[:n]
 	return list
+}
+
+func (list targetList) FilerIter(match func(int) bool) iter.Seq[int] {
+	return func(yield func(int) bool) {
+		for _, element := range list {
+			if match(element) {
+				if !yield(element) {
+					return
+				}
+			}
+		}
+	}
 }
 
 func main() {
